@@ -14,7 +14,7 @@
     <div id="header">
 
         <!-- Logo -->
-        <h1><a href="index.html" id="logo"> Out of Stock <em> Case of Study</em></a></h1>
+        <h1><a href="index.html" id="logo"> Out of Stock <em> Predictive analysis in Retail Colombia 2021 </em></a></h1>
 
         <!-- Nav -->
         <nav id="nav">
@@ -32,13 +32,64 @@
     </div>
 
 
-    <section class="wrapper style1">
+    <div class="container p-2 my-3 border">
 
 
-        <span class="image featured"><img alt="" src="images/conclu.jpg"/></span>
+        <p>
+            <br><br>
+            We are grateful in advance for the efforts made by the company Eficacia and its willingness to assist in the process.
+            <br>
+            <br>
+            In conclusion, the data show problems with some stores in the collection or updating of information, particularly the small chains, 
+            which report products out of stock for longer periods of time than the other chains; the inventory data are necessary for analysis or 
+            the possible application of more complex models, but in this case they were discarded because it was not possible to relate them for various reasons.
+            <br>
+            <br>
+            There is a general imbalance in the data, but as mentioned above, it seems to be caused by the point at which the information is collected or reports inventories, 
+            prices and others, or by the fact that when data is processed (filtering, cleaning, organizing and joining), there are errors by specific city, by category and by chain,
+             so it is suggested that processes be standardized and automated to eliminate this imbalance and make it easier to implement data management mechanisms.
+             <br>
+             <br>
 
 
-    </section>
+
+            <section class="wrapper style1">
+    
+    
+                <span class="image featured"><img src="images\meme.jpg" height="90%" width="90%" alt="" /></span>
+        
+        
+            </section>
+            
+           <br><br>
+           Although several types of models were analyzed for better forecasting, the quality of the data should be improved, starting with the collection process itself, so that in the future 
+           it will be easier to apply other model options in order to be more effective in forecasting possible inventory stockouts. It would also be important to add an inventory dataset 
+           for each brand or chain of warehouses so that the information could be trained or contrasted with more complex models or algorithms.
+            <br><br>
+            Several models were tested using the 'AutoTS' library, from which the theta model was chosen as the best performing one, but even so, the model does not give a satisfactory result given 
+            the validity of the data, which has some inconsistencies, as explained in other sections, Therefore, the Holt-Winters smoothing model using the statsmodels library gives a result more 
+            in line with the desired result where it predicts which chains and in which cities products are out of stock with a variation, but this model requires an adjustment from the data and 
+            where possible a training with a larger portion of data and that these are balanced and as has been recommended since the collection should be standardized for a good result.
+            <br><br>
+            As an additional recommendation, a robust local or cloud-based production or deployment environment should be considered, which may generate costs depending on the size of the data and application 
+            deployed and the type of service purchased, given that the performance of the analysis, model and deployment requires memory and processing resources
+            <br>
+            
+            </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <!-- CTA -->
